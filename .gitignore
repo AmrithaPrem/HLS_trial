@@ -1,0 +1,5 @@
+# skip the full per-shot encodes, not needed for streaming
+*_v*.mp4
+
+# keep DASH init segments
+!*chunk-stream*-.mp4
